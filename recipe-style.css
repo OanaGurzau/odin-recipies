@@ -1,0 +1,22 @@
+*{
+    font-family: 'Courier New', Courier, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: darkred;
+}
+
+ul{
+    background-color: darkred;
+    list-style-position: inside;
+    list-style-type: circle;
+    padding: 20px;
+}
+
+ul li{
+    background-color: rgb(182, 90, 90);
+    padding: 5px;
+}
+

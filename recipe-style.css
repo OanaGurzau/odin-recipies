@@ -20,3 +20,16 @@ ul li{
     padding: 5px;
 }
 
+
+/* The reason why this will overwrite the inline is because the image from lasagna.html.. etc was resized with the width and height attribute property inline not with style!!!  
+
+<img height=100px...>
+vs
+<img style="height:100px">
+
+*/
+
+img{
+    width: 800px;
+    height: auto;
+}
